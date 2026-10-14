@@ -4,7 +4,7 @@ Tags: woocommerce, cart, one product, restrict cart, checkout
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,9 @@ No, the restriction only applies to the storefront cart. Orders added or changed
 3. Go to WooCommerce > Settings > CartRules > One Product in Cart to turn the restriction on and choose what should happen.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed: the rule is now checked again on the cart and checkout pages, so products that reached the cart another way (a guest cart merged at login, "Order again", or another plugin) can no longer be checked out together. Carts the rule allows are not affected.
 
 = 1.0.0 =
 * Initial release

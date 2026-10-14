@@ -2,7 +2,7 @@
 /**
  * Plugin Name:          CartRules One Product in Cart for WooCommerce
  * Description:          Restrict the WooCommerce cart to a single product at a time.
- * Version:              1.0.0
+ * Version:              1.0.1
  * Requires at least:    6.5
  * Requires PHP:         7.4
  * Requires Plugins:     woocommerce
